@@ -1,0 +1,101 @@
+html, body {
+  margin: 10;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+.bFont{
+  background-color:rgba(14, 87, 116, 0.692);
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 70px;
+  color: rgb(238, 146, 25);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+
+.Egreeting{
+  background-color:rgba(60, 255, 1, 0.548);;
+  border-radius: 10px;
+  font-size: 45px;
+  color: rgb(12, 16, 24);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+
+.greeting{
+  background-color:rgba(60, 255, 1, 0.548);;
+  padding: 25px;
+  border-radius: 10px;
+  font-size: 45px;
+  color: rgb(12, 16, 24);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+
+.input {
+  width:250px;
+  height:40px;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 5px;
+  background-color:rgba(123, 218, 255, 0.788);
+  font-size: 30px;
+  font-weight: 1000;
+  outline:none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+
+.btn {
+  width:100px;
+  height:60px;
+  background-color: #69b65270;
+  border: 3px solid white;
+  color: rgb(0, 0, 0);
+  font-weight:bold;
+  border-radius: 10px;
+  margin-bottom:100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  outline: none;
+}
+
+.btn:hover{
+  background-color: #69b652;
+}
+
+.rbtn {
+  width:100px;
+  height:50px;
+  background-color: #5272b670;
+  border: 3px solid white;
+  color: rgb(0, 0, 0);
+  font-weight:bold;
+  border-radius: 10px;
+  margin-bottom:100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  outline: none;
+}
+
+.rbtn:hover{
+  background-color: #5272b6;
+}
